@@ -81,7 +81,7 @@ void	test_s(void)
 	printf("Printf = %d, ft_printf = %d\n\n", x, y);
 }
 
-void	test_percent(void)
+void	test_percent(void)1
 {
 	int	x;
 	int	y;

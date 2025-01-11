@@ -1,6 +1,6 @@
 #include "ft_printf.h"
 
-int	check_format(char *str, va_list args)
+int	ft_check_format(char *str, va_list args)
 {
 	int	num;
 
@@ -32,7 +32,7 @@ int	get_full_length(char *str, va_list args)
 		if (*str == '%')
 		{
 			str++;
-			num += check_format(str, args);
+			num += ft_check_format(str, args);
 		}
 		else
 		{
